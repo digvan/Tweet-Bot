@@ -25,6 +25,8 @@ Requirements
 1-Redis
 2-Twitter python library (included)
 3-Bitly python library (included)
+4-sign up for youtube developer key (http://code.google.com/apis/youtube/dashboard/)
+5- download and install python-gdata-client (http://code.google.com/p/gdata-python-client/)
 
 
 What you need to install?
@@ -34,6 +36,8 @@ try to fix these variables in the source code
 BITLY_API = 'YOUR BITLY API'
 USERNAME = "YOUR TWITTER USERNAME"
 PASSWORD = "YOUR TWITTER PASSWORD"
+YOUTUBE_API = 'YOUR YOUTUBE DEVELOPER KEY'
+YOUTUBE_USERNAME_OF_RET = "USERNAME OF WHO YOU WANT TO DOWNLOAD HIS/HER FEED"
 
 and then go to the http://developer.yahoo.com/yql/console/ 
 then in the console type select * from rss where url = "YOUR URL" and get the result in json format
